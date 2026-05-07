@@ -36,7 +36,7 @@ I also used and configured some other software previously. So there are old conf
 
 ## Installation {#installation}
 
-The main reason I use Linux and all of this stuff is because I'm obsessed with customizing things (more reasons [here]({{< relref "whyyy" >}})). I therefore advocate you use my dotfiles as inspirations, stealing bits and pieces from them as you please.
+The main reason I use Linux and all of this stuff is because I'm obsessed with customizing things. I therefore advocate you use my dotfiles as inspirations, stealing bits and pieces from them as you please.
 
 If you do really want to _install_ some of my configs, I have an install script. However, **do not blindly run it**, and check first whether it won't do anything you don't want. It also relies on the pacman package manager, so it only works on Arch based distros. To run the script, first clone the git repo of my dotfiles using
 
