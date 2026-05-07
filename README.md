@@ -1,6 +1,6 @@
 # Reitis wilde Punktdateien
 
-Henlo! I'm Michael, or FreakyByte, or reiti, or however you wanna call me. These are my dotfiles, i.e. the configuration files for my Linux systems. Hope you find something you like!
+Henlo! These are my dotfiles, i.e. the configuration files for my Linux systems. Hope you find something you like!
 
 ## Short Description
 I use:

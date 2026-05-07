@@ -5,7 +5,7 @@ tags = ["homepage"]
 draft = false
 +++
 
-Henlo! I'm Michael, or FreakyByte, or reiti, or however you wanna call me. This is the documentation of my dotfiles, i.e. the configuration files for my Linux systems. Hope you find something you like!
+Henlo! Seems like you stumbled upon the documentation of my dotfiles, i.e. the configuration files for my Linux systems. Hope you find something you like!
 
 
 ## Components {#components}
@@ -13,7 +13,7 @@ Henlo! I'm Michael, or FreakyByte, or reiti, or however you wanna call me. This 
 My config roughly consists of the following parts:
 
 1.  **The OS.** I use [EndeavourOS](https://endeavouros.com/). However, the only part where this is actually relevant is in the installation.
-2.  **Emacs**. I use [Doom Emacs](https://github.com/doomemacs/doomemacs). This is not just an editor. My main use case is for all sorts of math/LaTeX stuff, including an elaborate note-taking setup using [org-roam](https://www.orgroam.com/). Other than that, I use it to write these nice configs and dock, and occasionally do some programming.
+2.  **Emacs**. I use [Doom Emacs](https://github.com/doomemacs/doomemacs). This is not just an editor. My main use case is for all sorts of math/LaTeX stuff, including an elaborate note-taking setup using [org-roam](https://www.orgroam.com/). Other than that, I use it to write these nice configs and docs, and occasionally do some programming.
 3.  **The Desktop Environment.**
     -   Main ingredient is the window manager [Qtile](https://qtile.org/). This is complimented by
     -   [picom](https://github.com/yshui/picom) as the compositor,

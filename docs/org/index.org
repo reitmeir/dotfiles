@@ -3,12 +3,12 @@
 #+PROPERTY: header-args :export_hugo_type homepage
 #+hugo_tags: homepage
 
-Henlo! I'm Michael, or FreakyByte, or reiti, or however you wanna call me. This is the documentation of my dotfiles, i.e. the configuration files for my Linux systems. Hope you find something you like!
+Henlo! Seems like you stumbled upon the documentation of my dotfiles, i.e. the configuration files for my Linux systems. Hope you find something you like!
 
 * Components
 My config roughly consists of the following parts:
 1. *The OS.* I use [[https://endeavouros.com/][EndeavourOS]]. However, the only part where this is actually relevant is in the installation.
-2. *Emacs*. I use [[https://github.com/doomemacs/doomemacs][Doom Emacs]]. This is not just an editor. My main use case is for all sorts of math/LaTeX stuff, including an elaborate note-taking setup using [[https://www.orgroam.com/][org-roam]]. Other than that, I use it to write these nice configs and dock, and occasionally do some programming.
+2. *Emacs*. I use [[https://github.com/doomemacs/doomemacs][Doom Emacs]]. This is not just an editor. My main use case is for all sorts of math/LaTeX stuff, including an elaborate note-taking setup using [[https://www.orgroam.com/][org-roam]]. Other than that, I use it to write these nice configs and docs, and occasionally do some programming.
 3. *The Desktop Environment.*
    - Main ingredient is the window manager [[https://qtile.org/][Qtile]]. This is complimented by
    - [[https://github.com/yshui/picom][picom]] as the compositor,
