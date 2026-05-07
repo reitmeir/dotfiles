@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: iso
+# uuid: iso
+# key: iso
+# condition: (and (save-restriction (widen) (texmathp)) (quote auto))
+# --
+\cong $0

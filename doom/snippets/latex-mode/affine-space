@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: affine-space
+# uuid: affine-space
+# key: bbA
+# condition: (and (save-restriction (widen) (texmathp)) (quote auto))
+# --
+\mathbb{A}${1:$(when (> (length yas-text) 0) "^")
+}${1:$(when (> (length yas-text) 1) "{")
+}${1:n}${1:$(when (> (length yas-text) 1) "}")
+} $0

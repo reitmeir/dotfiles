@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: less-less
+# uuid: less-less
+# key: <<
+# condition: (and (save-restriction (widen) (texmathp)) (quote auto))
+# --
+\ll $0

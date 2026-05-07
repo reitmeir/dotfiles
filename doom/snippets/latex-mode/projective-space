@@ -1,0 +1,8 @@
+# key: bbP
+# name: projective-space
+# condition: (and (save-restriction (widen) (texmathp)) 'auto)
+# --
+\mathbb{P}${1:$(when (> (length yas-text) 0) "^")
+}${1:$(when (> (length yas-text) 1) "{")
+}${1:n}${1:$(when (> (length yas-text) 1) "}")
+} $0

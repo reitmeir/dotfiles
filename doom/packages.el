@@ -106,3 +106,5 @@
 (package! perfect-margin)
 
 (package! catppuccin-theme)
+
+(package! ox-hugo)

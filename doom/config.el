@@ -1099,6 +1099,7 @@ images cannot be displayed with %s"
   (setq org-latex-packages-alist '(
         ("" "amsmath" t ("pdflatex"))
         ("" "amssymb" t ("pdflatex"))
+        ("" "MnSymbol" t ("pdflatex" "lualatex" "xetex"))
         ("" "tikz" t ("pdflatex" "lualatex" "xetex"))
         ("" "pgfplots" t ("pdflatex" "lualatex" "xetex"))))
   (setq org-latex-preview-preamble (concat org-latex-preview-preamble "\n\\pgfplotsset{compat=1.16}\\usetikzlibrary{cd}\n"))
@@ -1139,7 +1140,7 @@ images cannot be displayed with %s"
 (add-hook 'roam-pseudohook 'org-latex-preview-whole-buffer)
 
 (setq org-latex-mathoperators (list
-        "acl" "Ad" "Aut" "bd" "Binom" "card" "Cb" "CB" "cl" "coker" "Cov" "Covar" "dcl" "ded" "dist" "ED" "EM" "End" "Exp" "Ext" "fr" "Frac" "Gal" "Geom" "GL" "Hom" "id" "im" "ind" "lexmin" "lexmax" "Li" "Mat" "ord" "Poisson" "Pois" "RM" "sinc" "SL" "SO" "Spec" "st" "Stab" "SU" "Sub" "Th" "tp" "Tor" "Unif" "Var"))
+        "acl" "Ad" "Aut" "bd" "Binom" "card" "Cb" "CB" "cl" "coker" "Cov" "Covar" "dcl" "ded" "dist" "dom" "ED" "EM" "End" "Exp" "Ext" "fr" "Frac" "Gal" "Geom" "GL" "Hom" "id" "im" "ind" "lexmin" "lexmax" "Li" "Mat" "ord" "Poisson" "Pois" "Rat" "res" "RM" "sinc" "SL" "SO" "Spec" "st" "Stab" "SU" "Sub" "Th" "tp" "Tor" "Unif" "Var" "vc" "VC"))
 (dolist (macro org-latex-mathoperators)
   (setq org-latex-preview-preamble (concat org-latex-preview-preamble "\\DeclareMathOperator{\\" macro "}{" macro "}"))
   (add-to-list 'org-roam-ui-latex-macros (cons (concat "\\" macro) (concat "\\operatorname{" macro "}")) t)

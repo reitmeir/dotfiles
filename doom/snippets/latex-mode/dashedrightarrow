@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: dashedrightarrow
+# uuid: dashedrightarrow
+# key: -->
+# condition: (and (save-restriction (widen) (texmathp)) (quote auto))
+# --
+\dashedrightarrow $0

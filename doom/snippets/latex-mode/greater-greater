@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: greater-greater
+# uuid: greater-greater
+# key: >>
+# condition: (and (save-restriction (widen) (texmathp)) (quote auto))
+# --
+\gg $0
